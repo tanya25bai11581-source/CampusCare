@@ -1,4 +1,5 @@
- # CampusCare – Student Health Management System
+````markdown
+# CampusCare – Student Health Management System
 
 ## Overview
 
@@ -8,21 +9,24 @@ The project demonstrates core Programming in Java concepts including Object-Orie
 
 ## Features
 
-- Student Management
-  - Add student details
-  - View student records
+### 1. Student Management
+- Add student details
+- View student records
 
-- Appointment Management
-  - Book appointments
-  - View appointments
+### 2. Appointment Management
+- Book appointments
+- View appointments
 
-- Health Records
-  - Add health records
-  - View health records
+### 3. Health Records
+- Add health records
+- View health records
 
-- Background appointment reminder task
-- Input validation and exception handling
+### Additional Features
+- Console-based menu system
+- Exception handling for invalid main-menu input
+- Background appointment reminder task using multithreading
 - Modular class-based design
+- File handling classes for data storage/export functionality
 
 ## Technologies Used
 
@@ -53,42 +57,60 @@ CampusCare/
 ├── docs/
 ├── README.md
 └── statement.md
-text```
+````
+
 ## How to Run
 
-Open the src directory in the terminal.
+Open the `src` directory in the terminal.
 
-Compile the project:
+Compile all Java files:
 
+```bash
 javac *.java
+```
 
 Run the application:
 
+```bash
 java Main
-Main Modules
-Student Management
-Appointment Management
-Health Records
+```
+
+## Main Modules
+
+1. Student Management
+2. Appointment Management
+3. Health Records
 
 ## Testing
 
 The application was tested by compiling all Java source files and running the main program through the console.
 
-Tested operations include:
+The following operations were tested:
 
-Adding and viewing students
-Booking and viewing appointments
-Adding and viewing health records
-Invalid menu input handling
-Background reminder task execution
-Future Enhancements
-Persistent database storage
-Graphical user interface
-Student login and authentication
-Appointment cancellation and rescheduling
-Advanced health analytics
+* Adding and viewing student details
+* Booking and viewing appointments
+* Adding and viewing health records
+* Main-menu input validation
+* Background reminder task execution
+* Successful compilation of all Java source files
 
-##Author
+## Non-Functional Features
 
+* **Usability:** Simple console-based menu system
+* **Reliability:** Exception handling for invalid input
+* **Maintainability:** Separate classes for different modules
+* **Resource Efficiency:** Lightweight console-based implementation
+
+## Future Enhancements
+
+* Persistent database storage
+* Graphical user interface
+* Student login and authentication
+* Appointment cancellation and rescheduling
+* Advanced health analytics
+* Improved input validation
+
+## Author
+Tanya Kakkar 25BAI11581
 Programming in Java Project – CampusCare
-By Tanya Kakkar 25BAI11581
+
