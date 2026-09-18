@@ -53,3 +53,41 @@ CampusCare/
 ├── docs/
 ├── README.md
 └── statement.md
+## How to Run
+
+Open the src directory in the terminal.
+
+Compile the project:
+
+javac *.java
+
+Run the application:
+
+java Main
+Main Modules
+Student Management
+Appointment Management
+Health Records
+
+## Testing
+
+The application was tested by compiling all Java source files and running the main program through the console.
+
+Tested operations include:
+
+Adding and viewing students
+Booking and viewing appointments
+Adding and viewing health records
+Invalid menu input handling
+Background reminder task execution
+Future Enhancements
+Persistent database storage
+Graphical user interface
+Student login and authentication
+Appointment cancellation and rescheduling
+Advanced health analytics
+
+##Author
+
+Programming in Java Project – CampusCare
+By Tanya Kakkar 25BAI11581
