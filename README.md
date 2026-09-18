@@ -53,7 +53,7 @@ CampusCare/
 ├── docs/
 ├── README.md
 └── statement.md
-```text
+text```
 ## How to Run
 
 Open the src directory in the terminal.
